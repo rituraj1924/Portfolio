@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>Contact Me</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(0, 0, 33);
+            color: white;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 110px;
+            background-color: rgb(18, 18, 62);
+        }
+
+        .logo {
+            width: 10%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .logo img {
+            width: 80%;
+            border: 3px solid white;
+            border-radius: 50%;
+            margin: 5px;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            color: rgb(153, 153, 226);
+            font-size: 1.01rem;
+        }
+
+        .contact {
+            height: 833px;
+        }
+
+        .text-center {
+            text-align: center;
+            padding-top: 10px;
+            font-family: 'Ubuntu', sans-serif;
+            font-size: 35px;
+        }
+
+        .form {
+            max-width: 62%;
+            margin: 25px auto;
+            flex-basis: 48%;
+        }
+
+        .form-input {
+            margin: 14px 0;
+            padding: 5px 13px;
+            width: 100%;
+            font-size: 18px;
+            border: 2px solid grey;
+            border-radius: 6px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        .location {
+            width: 80%;
+            margin: auto;
+            padding: 80px 0;
+        }
+
+        .location iframe {
+            width: 100%;
+        }
+
+
+
+        footer {
+            background-color: #0e0e1a;
+        }
+
+        .footer {
+            display: flex;
+            padding: 23px 122px;
+            justify-content: space-evenly;
+        }
+
+        .footer ul {
+            list-style: none;
+        }
+
+        .footer>div {
+            width: 223px;
+        }
+
+        footer .footer-rights {
+            text-align: center;
+            color: grey;
+            padding: 12px;
+        }
+
+
+
+        @media only screen and (max-width: 837px) {
+
+            nav {
+                flex-direction: column;
+                flex-wrap: wrap;
+                width: 1050px;
+                height: 200px;
+                text-overflow: none;
+
+            }
+
+            nav .logo {
+                flex-direction: column;
+            }
+
+            nav li {
+                flex-direction: column;
+                max-width: 100%;
+                text-overflow: none;
+            }
+
+            .location {
+                padding-left: 100px;
+                width: 800px;
+            }
+
+            .contact {
+                padding-left: 10px;
+                width: 1000px;
+            }
+
+
+            footer {
+                width: 1050px;
+                margin-top: 200px;
+            }
+
+            .footer {
+                width: 800px;
+                display: flex;
+                justify-content: space-evenly;
+            }
+
+            .footer-fourth {
+                padding-left: 100px;
+            }
+
+            .footer-third {
+                padding-left: 80px;
+            }
+
+
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo"><img src="logo.jpg" alt="logo" height="100" width="100"></div>
+            <div class="left">My Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="portfolio.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="contact.html">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section class="location">
+        <iframe>
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3501.7803380512587!2d77.13999167535856!3d28.636344875662626!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d03b8830df731%3A0x394c18f73242e3d7!2s439%2C%20Budh%20Nagar%2C%20Inder%20Puri%2C%20New%20Delhi%2C%20Delhi%20110012!5e0!3m2!1sen!2sin!4v1704097430557!5m2!1sen!2sin"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2 class="text-center">Contact Me</h2>
+        <div class="form">
+            <input class="form-input" type="text" name="name" id="name" placeholder="Enter your name">
+            <input class="form-input" type="text" name="phone" id="name" placeholder="Enter your Phone">
+            <input class="form-input" type="text" name="email" id="name" placeholder="Enter your email">
+            <textarea class="form-input" id="text" cols="30" rows="10" placeholder="Ellaborate your concern"></textarea>
+            <button class="btn btn-sm btn-dark">Submit</button>
+        </div>
+    </section>
+
+
+
+
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Rituraj's Developer Portfolio</h3>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li>
+                        <h5>XYZ Road, ABC Building</h5>
+                        <p>New delhi Inderpuri budh nagar</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-third">
+                <ul>
+                    <li>
+                        <h5>+91 5024-6758-01</h5>
+                        <p>Monday To Saturday, 10AM to 6AM</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-fourth">
+                <ul>
+                    <li>
+                        <h5>rituraj1924@gmail.com</h5>
+                        <p>Email me your query</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-rights">
+            Copyright &#169; riturajportfolio.com | All rights reserved
+        </div>
+    </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rituraj Thakur | Developer & Designer Portfolio</title>
+  <meta name="description" content="Portfolio of Rituraj Thakur - Web Developer, Graphic Designer, Web Designer, and Video Editor. Building modern, high-performance, interactive digital experiences." />
+
+  <!-- Preconnect Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- Background Interactive Particles Canvas -->
+  <canvas id="particles-canvas"></canvas>
+
+  <!-- ==================== HEADER & NAVBAR ==================== -->
+  <header>
+    <nav class="navbar">
+      <div class="container">
+        <a href="#hero" class="nav-logo">
+          <img src="assets/images/logo.jpg" alt="Rituraj Logo" />
+          <span class="nav-logo-text">Rituraj<span class="gradient-text">.dev</span></span>
+        </a>
+
+        <div class="nav-links">
+          <a href="#hero" class="active">Home</a>
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#experience">Experience</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact" class="nav-cta">Let's Talk</a>
+        </div>
+
+        <div class="hamburger" aria-label="Toggle navigation menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- ==================== HERO SECTION ==================== -->
+    <section id="hero" class="hero">
+      <!-- 3D Geometric Floating Background Elements -->
+      <div class="hero-shapes">
+        <div class="shape shape-1"></div>
+        <div class="shape shape-2"></div>
+        <div class="shape shape-3"></div>
+        <div class="shape shape-4"></div>
+        <div class="shape shape-5"></div>
+
+        <!-- 3D Rotating Cube -->
+        <div class="cube-wrapper">
+          <div class="cube">
+            <div class="cube-face"></div>
+            <div class="cube-face"></div>
+            <div class="cube-face"></div>
+            <div class="cube-face"></div>
+            <div class="cube-face"></div>
+            <div class="cube-face"></div>
+          </div>
+        </div>
+
+        <!-- 3D Rotating Pyramid -->
+        <div class="pyramid-wrapper">
+          <div class="pyramid">
+            <div class="pyramid-face"></div>
+            <div class="pyramid-face"></div>
+            <div class="pyramid-face"></div>
+            <div class="pyramid-face"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="hero-content reveal-left">
+          <div class="hero-greeting">
+            Hello World! <span class="wave">👋</span> I am
+          </div>
+          <h1 class="hero-name">
+            Rituraj <span class="gradient-text">Thakur</span>
+          </h1>
+
+          <div class="hero-typed-wrap">
+            <span>Passionate</span>
+            <span id="typed-element"></span>
+          </div>
+
+          <p class="hero-description">
+            Transforming concepts into stunning, interactive digital experiences with clean architecture, pixel-perfect aesthetics, and captivating animations.
+          </p>
+
+          <div class="hero-buttons">
+            <a href="assets/docs/resume.pdf" download="Rituraj_Thakur_Resume.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+              <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
+              </svg>
+              Download Resume
+            </a>
+            <a href="https://github.com/rituraj1924" target="_blank" rel="noopener noreferrer" class="btn btn-outline">
+              <svg fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"></path>
+              </svg>
+              Visit GitHub
+            </a>
+          </div>
+        </div>
+
+        <div class="hero-image reveal-right">
+          <div class="hero-image-glow">
+            <img src="assets/images/bg.png" alt="Rituraj - Developer Showcase" />
+          </div>
+        </div>
+      </div>
+
+      <div class="scroll-indicator">
+        <div class="scroll-mouse"></div>
+        <span>Scroll Down</span>
+      </div>
+    </section>
+
+    <!-- ==================== ABOUT SECTION ==================== -->
+    <section id="about" class="about">
+      <div class="container">
+        <div class="about-image reveal-left">
+          <div class="about-image-card tilt-effect">
+            <img src="assets/images/logo.jpg" alt="About Rituraj" />
+          </div>
+        </div>
+
+        <div class="about-content reveal-right">
+          <span class="section-label">Who I Am</span>
+          <h2 class="section-title">
+            Passionate Developer &amp; <span class="gradient-text">Creative Designer</span>
+          </h2>
+          <p class="section-subtitle">
+            I am a frontend developer and multimedia designer dedicated to producing clean code, pixel-perfect responsive layouts, and interactive user interfaces. I love bringing ideas to life with fluid animations and modern visual design principles that look exceptional on every screen size.
+          </p>
+
+          <div class="about-stats">
+            <div class="stat-card reveal delay-1">
+              <div class="stat-number">1+</div>
+              <div class="stat-label">Years Experience</div>
+            </div>
+            <div class="stat-card reveal delay-2">
+              <div class="stat-number">10+</div>
+              <div class="stat-label">Projects Built</div>
+            </div>
+            <div class="stat-card reveal delay-3">
+              <div class="stat-number">100%</div>
+              <div class="stat-label">Client Dedication</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== SKILLS & SERVICES ==================== -->
+    <section id="skills" class="skills">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-label">Expertise</span>
+          <h2 class="section-title">What I Bring <span class="gradient-text">To The Table</span></h2>
+          <p class="section-subtitle">A balanced fusion of front-end engineering, visual identity design, and video production to build unforgettable digital products.</p>
+        </div>
+
+        <div class="skills-grid">
+          <div class="skill-card reveal delay-1">
+            <div class="skill-icon">💻</div>
+            <h3>Web Development</h3>
+            <p>Modern HTML5, CSS3, JavaScript, and framework fundamentals. Creating responsive, accessible, and high-performance websites.</p>
+          </div>
+
+          <div class="skill-card reveal delay-2">
+            <div class="skill-icon">🎨</div>
+            <h3>Graphic Design</h3>
+            <p>Creating compelling visual assets, branding elements, promotional materials, and high-impact digital graphics.</p>
+          </div>
+
+          <div class="skill-card reveal delay-3">
+            <div class="skill-icon">✨</div>
+            <h3>UI/UX Web Design</h3>
+            <p>Crafting intuitive and aesthetic user journeys, wireframes, modern color schemes, and seamless interaction patterns.</p>
+          </div>
+
+          <div class="skill-card reveal delay-4">
+            <div class="skill-icon">🎬</div>
+            <h3>Video Editing</h3>
+            <p>Professional video montage, sound arrangement, visual effects, and storytelling to convey powerful brand messages.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== WORK EXPERIENCE TIMELINE ==================== -->
+    <section id="experience" class="experience">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-label">Career Journey</span>
+          <h2 class="section-title">Work <span class="gradient-text">Experience</span></h2>
+          <p class="section-subtitle">Here is a timeline of my hands-on journey and multidisciplinary growth in tech and creative media.</p>
+        </div>
+
+        <div class="timeline">
+          <!-- Item 1 -->
+          <div class="timeline-item reveal delay-1">
+            <div class="timeline-dot"></div>
+            <div class="timeline-card">
+              <div class="timeline-card-header">
+                <img src="assets/images/developer.png" alt="Web Developer" />
+                <div>
+                  <div class="timeline-role">Web Developer</div>
+                  <div class="timeline-period">Recent Focus &bull; Frontend Development</div>
+                </div>
+              </div>
+              <p>Specialized in client-server architecture, modern web development using HTML5, CSS3, and JavaScript. Building reactive user interfaces with modern standards, responsive breakpoints, and animations.</p>
+            </div>
+          </div>
+
+          <!-- Item 2 -->
+          <div class="timeline-item reveal delay-2">
+            <div class="timeline-dot"></div>
+            <div class="timeline-card">
+              <div class="timeline-card-header">
+                <img src="assets/images/webdesign.png" alt="Web Designer" />
+                <div>
+                  <div class="timeline-role">Web Designer</div>
+                  <div class="timeline-period">8 Months Experience &bull; UI/UX &amp; Prototyping</div>
+                </div>
+              </div>
+              <p>Planned, designed, and structured attractive website layouts. Selected cohesive color schemes, typography, and visual assets to revamp user engagement and website conversion rates.</p>
+            </div>
+          </div>
+
+          <!-- Item 3 -->
+          <div class="timeline-item reveal delay-3">
+            <div class="timeline-dot"></div>
+            <div class="timeline-card">
+              <div class="timeline-card-header">
+                <img src="assets/images/graphic.png" alt="Graphic Designer" />
+                <div>
+                  <div class="timeline-role">Graphic Designer</div>
+                  <div class="timeline-period">3 Months Experience &bull; Visual Identity</div>
+                </div>
+              </div>
+              <p>Delivered customized graphic designs for branding, marketing assets, social media campaigns, and digital illustrations with high aesthetic fidelity.</p>
+            </div>
+          </div>
+
+          <!-- Item 4 -->
+          <div class="timeline-item reveal delay-4">
+            <div class="timeline-dot"></div>
+            <div class="timeline-card">
+              <div class="timeline-card-header">
+                <img src="assets/images/videoeditor.png" alt="Video Editor" />
+                <div>
+                  <div class="timeline-role">Video Editor</div>
+                  <div class="timeline-period">1 Year Experience &bull; Post-Production &amp; VFX</div>
+                </div>
+              </div>
+              <p>Arranged and edited raw footage into dynamic, high-retention video stories. Applied color grading, motion transitions, audio mixing, and special effects for commercial clients.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== FEATURED PROJECTS ==================== -->
+    <section id="projects" class="projects">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-label">Portfolio</span>
+          <h2 class="section-title">Featured <span class="gradient-text">Projects</span></h2>
+          <p class="section-subtitle">Check out some of my recent web development projects. Each project was carefully built with a focus on responsiveness and clean code.</p>
+        </div>
+
+        <div class="projects-grid">
+          <!-- Project 1 -->
+          <a href="https://rituraj1924.github.io/Lyricians-website/" target="_blank" rel="noopener noreferrer" class="project-card tilt-effect reveal delay-1">
+            <div class="project-card-image">
+              <img src="assets/images/project1.png" alt="Lyricians Music Website" />
+              <div class="project-card-overlay">
+                <span class="btn btn-primary">Live Demo &rarr;</span>
+              </div>
+            </div>
+            <div class="project-card-info">
+              <span class="project-card-tag">Website Design</span>
+              <h3>Lyricians Music Web</h3>
+              <p>A music lyrics and streaming discovery platform with responsive UI and audio player layout.</p>
+            </div>
+          </a>
+
+          <!-- Project 2 -->
+          <a href="https://rituraj1924.github.io/netflixclone/" target="_blank" rel="noopener noreferrer" class="project-card tilt-effect reveal delay-2">
+            <div class="project-card-image">
+              <img src="assets/images/project2.png" alt="Netflix Clone Web App" />
+              <div class="project-card-overlay">
+                <span class="btn btn-primary">Live Demo &rarr;</span>
+              </div>
+            </div>
+            <div class="project-card-info">
+              <span class="project-card-tag">Web App Clone</span>
+              <h3>Netflix Streaming Clone</h3>
+              <p>Faithful recreation of Netflix's dynamic streaming landing interface with movie carousels and sleek dark mode.</p>
+            </div>
+          </a>
+
+          <!-- Project 3 -->
+          <a href="https://rituraj1924.github.io/Weather--website/" target="_blank" rel="noopener noreferrer" class="project-card tilt-effect reveal delay-3">
+            <div class="project-card-image">
+              <img src="assets/images/project3.png" alt="Weather Forecast Application" />
+              <div class="project-card-overlay">
+                <span class="btn btn-primary">Live Demo &rarr;</span>
+              </div>
+            </div>
+            <div class="project-card-info">
+              <span class="project-card-tag">Web Application</span>
+              <h3>Interactive Weather App</h3>
+              <p>Real-time weather forecast website providing live temperature, humidity, wind speed, and meteorological conditions.</p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== CONTACT SECTION ==================== -->
+    <section id="contact" class="contact">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-label">Get In Touch</span>
+          <h2 class="section-title">Let's Work <span class="gradient-text">Together</span></h2>
+          <p class="section-subtitle">Have a project in mind, a freelance inquiry, or just want to say hi? Feel free to reach out anytime!</p>
+        </div>
+
+        <div class="contact-wrapper">
+          <!-- Contact Details -->
+          <div class="contact-info reveal-left">
+            <div class="contact-info-card">
+              <div class="contact-icon">📧</div>
+              <div>
+                <h4>Email Me</h4>
+                <p><a href="mailto:rituraj1924@gmail.com" class="gradient-text">rituraj1924@gmail.com</a></p>
+              </div>
+            </div>
+
+            <div class="contact-info-card">
+              <div class="contact-icon">⚡</div>
+              <div>
+                <h4>Availability</h4>
+                <p>Open for freelance projects &amp; full-time opportunities</p>
+              </div>
+            </div>
+
+            <div class="contact-info-card">
+              <div class="contact-icon">🐙</div>
+              <div>
+                <h4>GitHub Profile</h4>
+                <p><a href="https://github.com/rituraj1924" target="_blank" rel="noopener noreferrer" class="gradient-text">github.com/rituraj1924</a></p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Contact Form -->
+          <div class="contact-form reveal-right">
+            <form id="contact-form">
+              <div class="form-group">
+                <label for="name">Your Name</label>
+                <input type="text" id="name" name="name" required placeholder="John Doe" />
+              </div>
+
+              <div class="form-group">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" required placeholder="john@example.com" />
+              </div>
+
+              <div class="form-group">
+                <label for="message">Your Message</label>
+                <textarea id="message" name="message" rows="5" required placeholder="Tell me about your project or inquiry..."></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary btn-submit">
+                <span>Send Message 🚀</span>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ==================== FOOTER ==================== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-brand">
+          <h3>Rituraj<span class="gradient-text">.dev</span></h3>
+          <p>Creative developer &amp; designer passionate about building high-quality, memorable web experiences.</p>
+          <div class="footer-socials">
+            <a href="https://github.com/rituraj1924" target="_blank" rel="noopener noreferrer" class="social-link" title="GitHub">🐙</a>
+            <a href="mailto:rituraj1924@gmail.com" class="social-link" title="Email">✉️</a>
+            <a href="assets/docs/resume.pdf" download="Rituraj_Thakur_Resume.pdf" target="_blank" rel="noopener noreferrer" class="social-link" title="Download Resume">📄</a>
+          </div>
+        </div>
+
+        <div class="footer-links">
+          <h4>Navigation</h4>
+          <ul>
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Services</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-links">
+          <h4>Expertise</h4>
+          <ul>
+            <li><a href="#skills">Frontend Web Dev</a></li>
+            <li><a href="#skills">Graphic Design</a></li>
+            <li><a href="#skills">UI/UX Layouts</a></li>
+            <li><a href="#skills">Video Production</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 Rituraj Thakur. All rights reserved. Crafted with clean code &amp; 3D aesthetic.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Typed.js Script -->
+  <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+  <!-- Custom Interactive & 3D Script -->
+  <script src="js/script.js"></script>
+</body>
+</html>
